@@ -8,7 +8,7 @@ print("Entering info...")
 time.sleep(5)
 
 pyautogui.click(nameField)
-print('click!')
+print('Click!')
 try:
     while i < 18:
         # gh = random.choice(('u'))
