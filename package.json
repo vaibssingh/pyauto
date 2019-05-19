@@ -1,0 +1,20 @@
+{
+  "name": "pyauto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibssingh/pyauto.git"
+  },
+  "keywords": [],
+  "author": "vaibhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaibssingh/pyauto/issues"
+  },
+  "homepage": "https://github.com/vaibssingh/pyauto#readme"
+}
