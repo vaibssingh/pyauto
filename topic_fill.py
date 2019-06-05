@@ -1,6 +1,7 @@
 import pyautogui, time
 import random
 
+#initialise mouse
 i = 0
 nameField = (850, 434)
 subtopic = (1120, 532)
