@@ -2,7 +2,11 @@ language: node_js
 node_js:
 - "10"
 
+before_deploy: "echo 'ready?'"
+
 deploy:
   provider: npm
   email: "vaibhavsingh592.vs@gmail.com"
   api_key: "API_TOKEN"
+
+after_deploy: "Done!"
