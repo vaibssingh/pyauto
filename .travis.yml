@@ -10,4 +10,4 @@ deploy:
   on:
     repo: vaibssingh/pyauto
     tags: true
-after_deploy: Done!
+    branch: master
