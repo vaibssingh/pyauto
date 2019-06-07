@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-- "10"
-
-before_deploy: "echo 'ready?'"
-
+- '10'
+before_deploy: echo 'ready?'
 deploy:
   provider: npm
-  email: "vaibhavsingh592.vs@gmail.com"
-  api_key: "API_TOKEN"
-
-after_deploy: "Done!"
+  email: vaibhavsingh592.vs@gmail.com
+  api_key:
+    secure: OmBRZeKQDgSyikXopfeSVBOSjej91T+HmcnM6ph+hlQsmQ+FpXYSUK++rN0hnFr1vrl5AwLAQdlC7O97rrCJv0C26qJdht7cqYcilI7nS/rgvK73S3nVh/2fT5Rum+OiTfws/F0w0lXLAECxaJV8AFU8MaEz4I33sPyAdWR6AbXWf22dQ5vTZ7Knn73WhCDiXiU2dFarQe21eVu10CJAOMBJIHfiRciQ70GN6oPbo4hFbCKgc4nGOhR+fS+Cpq+AGd2hm53vCp84DehcAFbFTPQMaewb1F6DeEcsSODIP3nkAuGLEeAif4bs7RcSUs8O37+HvUZkUoYAbEWvE18zdFSBJKPfiM3FpPZa/P1My3DpvHKJCSa7/NjZNKmevW6HTku5go1DTtzNaxsVrDuMFe5ElWYxixG7A2fredHgvJM+VWB0wo6lE1UVo8rxtvpxn8QwjODG+tRmlAngQhgjAwG2F5i4nUd8U7r+7WzARa57QEceGrdfyDT5Zwdf3QqSZ+BiLPUjorTkf6Za2tm0tbHrtTOQtyazW0ez1vK5av2iy7VOslQHDyFDUapwvM9vda8ioE/77OK8GIXI+iv7RwQafvaoLi+Y37oC3sln/BMW7GJq3KD24JIkV0LAcAgSlicEl+/gemcFG1VB0TtmJDVUuHEz9GtonUV4oPslzJQ=
+  on:
+    repo: vaibssingh/pyauto
+after_deploy: Done!
