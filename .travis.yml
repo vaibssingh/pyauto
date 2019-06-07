@@ -3,8 +3,6 @@ node_js:
 - "10"
 
 deploy:
-  # provider: npm
-  # email: "vaibhavsingh592.vs@gmail.com"
-  # api_key: "API_TOKEN"
-  provider: script
-  script: test.sh
+  provider: npm
+  email: "vaibhavsingh592.vs@gmail.com"
+  api_key: "API_TOKEN"
