@@ -6,5 +6,3 @@ deploy:
   provider: npm
   email: "vaibhavsingh592.vs@gmail.com"
   api_key: "API_TOKEN"
-  on:
-    tags: true
